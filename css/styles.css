@@ -9,9 +9,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   color: var(--main-font-color);
-  background-color: #f5f5f5;
+  background-color: var(--bg-color);
+  letter-spacing: 0.03em;
 }
 .ul {
   list-style: none;
@@ -32,9 +32,7 @@ body {
 .link {
   text-decoration: none;
 }
-.header {
-  border: 1px solid #ececec;
-}
+
 .nav {
   font-weight: 500;
   font-size: 14px;
@@ -44,6 +42,9 @@ body {
 }
 .nav:hover,
 .nav:focus {
+  color: var(--secondary-font-color);
+}
+.current{
   color: var(--secondary-font-color);
 }
 .tel-mail {
@@ -70,6 +71,7 @@ body {
   color: var(--bg-color);
 }
 .btn {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -185,7 +187,20 @@ body {
   color: #ffffff;
 }
 /* portfolio */
+.title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .btn-second {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
