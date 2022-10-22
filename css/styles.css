@@ -8,6 +8,7 @@
 }
 
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   color: var(--main-font-color);
   background-color: var(--bg-color);
@@ -167,6 +168,7 @@ body {
 }
 .nav-adress {
   font-family: inherit;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
